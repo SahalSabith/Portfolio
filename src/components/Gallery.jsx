@@ -3,10 +3,8 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import img1 from '../assets/IMG_5144.jpg';
 import img2 from '../assets/IMG_9210_3.jpg';
 import img3 from '../assets/IMG_9617.jpg';
-import img4 from '../assets/PHOTO-2024-10-19-14-09-09.jpg';
 
 const images = [
-  { src: img4, alt: 'Sahal standing' },
   { src: img3, alt: 'Sahal portrait' },
   { src: img2, alt: 'Sahal working' },
   { src: img1, alt: 'Sahal coding' },
