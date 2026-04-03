@@ -5,9 +5,9 @@ import img2 from '../assets/IMG_9210_3.jpg';
 import img3 from '../assets/IMG_9617.jpg';
 
 const images = [
-  { src: img3, alt: 'Sahal portrait' },
-  { src: img2, alt: 'Sahal working' },
-  { src: img1, alt: 'Sahal coding' },
+  { src: img3, alt: 'Sahal Sabith portrait - Freelance Full Stack Developer' },
+  { src: img2, alt: 'Sahal Sabith focused on development work' },
+  { src: img1, alt: 'Sahal Sabith collaborating or presenting a project' },
 ];
 
 const Gallery = () => {

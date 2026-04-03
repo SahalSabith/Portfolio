@@ -37,13 +37,13 @@ const Contact = () => {
           </div>
 
           <div className="flex items-center justify-center gap-8 mb-16">
-            <a href="https://github.com/SahalSabith" target="_blank" rel="noreferrer" className="bg-zinc-900 p-4 rounded-full text-zinc-400 hover:text-white hover:bg-zinc-800 transition-all shadow-lg hover:shadow-purple-500/20">
+            <a href="https://github.com/SahalSabith" target="_blank" rel="noreferrer" aria-label="Github Profile" className="bg-zinc-900 p-4 rounded-full text-zinc-400 hover:text-white hover:bg-zinc-800 transition-all shadow-lg hover:shadow-purple-500/20">
               <Github className="w-6 h-6" />
             </a>
-            <a href="https://www.linkedin.com/in/sahal-sabith-406691306" target="_blank" rel="noreferrer" className="bg-zinc-900 p-4 rounded-full text-zinc-400 hover:text-[#0A66C2] hover:bg-zinc-800 transition-all shadow-lg hover:shadow-blue-500/20">
+            <a href="https://www.linkedin.com/in/sahal-sabith-406691306" target="_blank" rel="noreferrer" aria-label="LinkedIn Profile" className="bg-zinc-900 p-4 rounded-full text-zinc-400 hover:text-[#0A66C2] hover:bg-zinc-800 transition-all shadow-lg hover:shadow-blue-500/20">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="https://www.instagram.com/sahal_sabith_/" target="_blank" rel="noreferrer" className="bg-zinc-900 p-4 rounded-full text-zinc-400 hover:text-[#E1306C] hover:bg-zinc-800 transition-all shadow-lg hover:shadow-pink-500/20">
+            <a href="https://www.instagram.com/sahal_sabith_/" target="_blank" rel="noreferrer" aria-label="Instagram Profile" className="bg-zinc-900 p-4 rounded-full text-zinc-400 hover:text-[#E1306C] hover:bg-zinc-800 transition-all shadow-lg hover:shadow-pink-500/20">
               <Instagram className="w-6 h-6" />
             </a>
           </div>
@@ -52,6 +52,7 @@ const Contact = () => {
             href="mailto:sahalsabithofficial@gmail.com"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            aria-label="Send Sahal an email"
             className="inline-block bg-white text-black px-12 py-5 rounded-full font-medium text-lg tracking-wide hover:bg-purple-400 hover:text-white transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(168,85,247,0.4)]"
           >
             Say Hello

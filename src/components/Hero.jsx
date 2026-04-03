@@ -47,7 +47,7 @@ const Hero = () => {
           >
             <span className="w-8 h-[1px] bg-purple-500" />
             <h2 className="text-purple-400 font-medium tracking-[0.2em] text-xs md:text-sm uppercase">
-                Full Stack Architect
+                Freelance Full Stack Architect
             </h2>
           </motion.div>
 
@@ -70,7 +70,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8 }}
           >
-            Engineering <span className="text-white">futuristic digital ecosystems</span> with React, Django & AWS. Based in Kerala, India.
+            <span className="text-white">Freelance Full Stack Developer</span> engineering <span className="text-white">futuristic digital ecosystems</span> with React, Django & AWS. Based in Kerala, India.
           </motion.p>
           
           <motion.div 
@@ -80,13 +80,13 @@ const Hero = () => {
             transition={{ delay: 1 }}
           >
             <div className="flex gap-6">
-              <a href="https://github.com/SahalSabith" target="_blank" rel="noreferrer" className="text-zinc-500 hover:text-white transition-all hover:scale-110">
+              <a href="https://github.com/SahalSabith" target="_blank" rel="noreferrer" aria-label="Github Profile" className="text-zinc-500 hover:text-white transition-all hover:scale-110">
                 <Github className="w-7 h-7" />
               </a>
-              <a href="https://www.linkedin.com/in/sahal-sabith-406691306" target="_blank" rel="noreferrer" className="text-zinc-500 hover:text-[#0A66C2] transition-all hover:scale-110">
+              <a href="https://www.linkedin.com/in/sahal-sabith-406691306" target="_blank" rel="noreferrer" aria-label="LinkedIn Profile" className="text-zinc-500 hover:text-[#0A66C2] transition-all hover:scale-110">
                 <Linkedin className="w-7 h-7" />
               </a>
-              <a href="https://www.instagram.com/sahal_sabith_/" target="_blank" rel="noreferrer" className="text-zinc-500 hover:text-[#E1306C] transition-all hover:scale-110">
+              <a href="https://www.instagram.com/sahal_sabith_/" target="_blank" rel="noreferrer" aria-label="Instagram Profile" className="text-zinc-500 hover:text-[#E1306C] transition-all hover:scale-110">
                 <Instagram className="w-7 h-7" />
               </a>
             </div>
@@ -110,7 +110,7 @@ const Hero = () => {
            <div className="relative w-full max-w-md overflow-hidden rounded-tr-[100px] rounded-bl-[100px] shadow-2xl z-10 border border-white/10 group">
               <img 
                 src={heroImg} 
-                alt="Sahal Sabith Hero" 
+                alt="Portrait of Sahal Sabith, Freelance Full Stack Developer" 
                 className="w-full h-full object-cover object-center grayscale group-hover:grayscale-0 transition duration-700 group-hover:scale-105"
               />
               

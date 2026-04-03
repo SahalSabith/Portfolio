@@ -4,6 +4,13 @@ import { GraduationCap, Code2, BookOpen } from 'lucide-react';
 
 const timelineData = [
   {
+    title: "BTech in Computer Science & Engineering",
+    institution: "Eranad Knowledge City Technical Campus, Manjeri",
+    date: "Present",
+    description: "Currently pursuing my Bachelor of Technology degree, focusing on core computer science subjects, algorithms, and software engineering principles.",
+    icon: <GraduationCap className="w-6 h-6 text-purple-400" />
+  },
+  {
     title: "Full Stack Web Development",
     institution: "Brototype",
     date: "Recent",

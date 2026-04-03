@@ -21,7 +21,7 @@ const About = () => {
           <div className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-white/10 bg-zinc-900">
             <img 
               src={profileImg} 
-              alt="Sahal Sabith" 
+              alt="Sahal Sabith, Freelance Full Stack Developer from Kerala" 
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-700 hover:scale-105"
             />
           </div>
@@ -41,7 +41,7 @@ const About = () => {
 
           <div className="space-y-6 text-zinc-400 text-lg leading-relaxed font-light">
             <p>
-              Hello! I'm <span className="text-white font-medium">Sahal Sabith</span>, a passionate Full Stack Web Developer hailing from <span className="text-white">Malappuram, Kerala, India</span>. 
+              Hello! I'm <span className="text-white font-medium">Sahal Sabith</span>, a passionate <span className="text-white font-medium">Freelance Full Stack Web Developer</span> hailing from <span className="text-white">Malappuram, Kerala, India</span>. 
               I have an insatiable curiosity for building digital products that blend aesthetic beauty with robust engineering.
             </p>
             <p>
@@ -57,7 +57,7 @@ const About = () => {
             </div>
             <div>
               <p className="text-zinc-500 text-sm uppercase tracking-wider mb-2">Drop a line</p>
-              <a href="mailto:sahalsabithofficial@gmail.com" className="text-white hover:text-purple-400 transition-colors">
+              <a href="mailto:sahalsabithofficial@gmail.com" aria-label="Send email to Sahal Sabith" className="text-white hover:text-purple-400 transition-colors">
                 sahalsabithofficial@gmail.com
               </a>
             </div>
